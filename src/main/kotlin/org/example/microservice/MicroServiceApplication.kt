@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class MicroServiceApplication
 
 fun main(args: Array<String>) {
-	runApplication<MicroServiceApplication>(*args)
+    runApplication<MicroServiceApplication>(*args)
 }
