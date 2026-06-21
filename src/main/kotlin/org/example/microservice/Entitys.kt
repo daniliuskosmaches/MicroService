@@ -2,9 +2,10 @@ package org.example.microservice
 
 import jakarta.persistence.Entity
 import jakarta.persistence.Id
-import kotlin.experimental.ExperimentalNativeApi
+import lombok.Data
 
 @Entity
-data class Entitys {
+@Data
+class Entitys(@Id var id: Long? = null, val name: String){
 
 }
